@@ -2570,7 +2570,7 @@ export default function App() {
                 <span className="text-zinc-400 text-xs font-mono ml-2 truncate">45-bar-cinematic — Full Composition</span>
               </div>
               <div className="relative bg-[#050505] aspect-video">
-                <video className="w-full h-full object-contain" controls preload="metadata" src="src/assets/vid_1.mp4"></video>
+                <video className="w-full h-full object-contain" controls preload="metadata" src="/vid_1.mp4"></video>
               </div>
               <div className="p-6 border-t border-white/5 bg-white/[0.01]">
                 <div className="text-zinc-100 font-bold text-base mb-1 font-outfit">45-Bar Epic Cinematic — Full Piece</div>
@@ -2588,7 +2588,7 @@ export default function App() {
                 <span className="text-zinc-400 text-xs font-mono ml-2 truncate">before-after-harmony — Edit Demo</span>
               </div>
               <div className="relative bg-[#050505] aspect-video flex items-center justify-center">
-                <video className="w-full h-full object-contain" controls preload="metadata" src="src/assets/vid_2.mp4"></video>
+                <video className="w-full h-full object-contain" controls preload="metadata" src="/vid_2.mp4"></video>
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-6 pointer-events-none bg-black/40">
                   <div className="text-5xl mb-4 float-up drop-shadow-lg">🎭</div>
                   <div className="text-white font-bold text-lg mb-2 font-outfit drop-shadow-md">Before → After: Harmony Edit</div>
@@ -2616,7 +2616,7 @@ export default function App() {
                   className="bg-gradient-to-b from-purple-500 to-purple-600 hover:from-purple-400 hover:to-purple-500 text-white font-bold px-6 py-3 rounded-2xl text-sm transition-all shadow-[0_0_20px_rgba(168,85,247,0.3)] hover:shadow-[0_0_30px_rgba(168,85,247,0.5)] hover:-translate-y-0.5 whitespace-nowrap">
                   📋 View &amp; Copy Prompt
                 </button>
-                <a href="src/assets/audio.mp3" target="_blank" rel="noreferrer"
+                <a href="/audio.mp3" target="_blank" rel="noreferrer"
                   className="bg-white/5 hover:bg-white/10 text-white font-bold px-6 py-3 rounded-2xl text-sm transition-all border border-white/10 hover:border-white/20 hover:-translate-y-0.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)] whitespace-nowrap">
                   🎵 Download MP3
                 </a>
